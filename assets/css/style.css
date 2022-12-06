@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background: #024959;
+}
+
+#card {
+    display: grid;
+    place-items: center;
+
+    width: 31em;
+    height: 70vh;
+
+    border-radius: 1em;
+    background: #012E40;
+
+    color: #F2E3D5;
+
+}
+
+h1 {
+
+    pointer-events: none;
+}
